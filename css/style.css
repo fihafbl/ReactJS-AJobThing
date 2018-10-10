@@ -1,0 +1,71 @@
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.flex-container > div {
+  border: 25px solid #f1f1f1;
+  background-color: white;
+  /*margin: 0px 300px;*/
+
+}
+
+.profile {
+  float: center;
+  margin-top: 30px;
+  width: 300px;
+  height: 380px;
+  text-align: center;
+}
+
+.profile img{
+  margin: 30px;
+  border-radius: 50%;
+}
+
+.profile h1{
+  font-size: 25px;
+  color: #231F20;
+  margin: 5px;
+}
+
+.profile h2{
+  font-size: 18px;
+  margin: 5px;
+  color: #545454;
+}
+
+.profile-bio p{
+  font-size: 16px;
+  color: #545454;
+  margin-top: 40px;
+}
+
+.action .btn-follow{
+  background-color: #3D68B1;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.action .btn-message{
+  background-color: #45B75F;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px;
+}
+
+
